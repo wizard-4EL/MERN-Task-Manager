@@ -1,0 +1,50 @@
+/* Task Form Styles */
+.task-form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-form h3 {
+  color: #333;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  background: white;
+  cursor: pointer;
+}
+
+.form-group select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.1);
+}
+
+/* Dark Mode */
+body.dark-mode .task-form {
+  background: #2d2d2d;
+}
+
+body.dark-mode .task-form h3 {
+  color: #e0e0e0;
+}
+
+body.dark-mode .form-group select {
+  background: #1a1a1a;
+  color: #e0e0e0;
+  border-color: #444;
+}
