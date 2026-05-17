@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://mern-task-manager-1agl.onrender.com/api',
 });
 
 // Add token to requests
