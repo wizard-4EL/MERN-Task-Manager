@@ -125,20 +125,7 @@ npm start
 
 The app will open at `http://localhost:3000`
 
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/signup` - Register a new user
-- `POST /api/auth/login` - Login user
-- `GET /api/auth/profile` - Get user profile (Protected)
-
-### Tasks
-- `GET /api/tasks` - Get all tasks (Protected)
-  - Query params: `category`, `status`
-- `GET /api/tasks/:id` - Get single task (Protected)
-- `POST /api/tasks` - Create task (Protected)
-- `PUT /api/tasks/:id` - Update task (Protected)
-- `DELETE /api/tasks/:id` - Delete task (Protected)
+#
 
 ## Authentication Flow
 
@@ -190,15 +177,9 @@ The app will open at `http://localhost:3000`
 ✅ Authorization middleware on backend
 ✅ CORS enabled for secure cross-origin requests
 
-## Environment Variables
 
-### Backend (.env)
-```
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/task-manager
-JWT_SECRET=your_jwt_secret_key_here_change_in_production
-NODE_ENV=development
-```
+
+
 
 ## Development Tips
 
