@@ -25,7 +25,7 @@ connectDB();
 // CORS configuration for deployed frontend
 const allowedOrigins = process.env.ALLOWED_ORIGINS
   ? process.env.ALLOWED_ORIGINS.split(',').map((origin) => origin.trim())
-  : ['https://task-manager-seven-wheat-34.vercel.app', 'https://mern-task-manager-1agl.onrender.com'];
+  : ['https://task-manager-seven-wheat-34.vercel.app', 'https://mern-task-manager-yl8a.onrender.com/'];
 const corsOptions = {
   origin: (origin, callback) => {
     if (!origin || allowedOrigins.length === 0 || allowedOrigins.includes(origin)) {
